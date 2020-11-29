@@ -124,7 +124,7 @@ int main(int argc, const char* argv[]) {
     assert(value == valueCor);        //assert value from correct.txt
 	}
 
-
+  --tlbHitCnt; // account for extra hit
   //printf("ONLY READ FIRST 20 entries -- TODO: change to read all entries\n\n");
 
   // not quite correct -- should search page table before creating a new entry
